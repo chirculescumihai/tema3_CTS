@@ -1,0 +1,14 @@
+I will describe the design patterns that fit on my paper license. The application is for financial and documentation manegement in an 
+ONG. It has a menu from where you cand choose what to do in the appliation: Income and Expense, Reports, Contracts, Project Partners
+and members.
+
+1. Income and expense: for this options i think that it fits the singleton pattern because it is created a single instance
+for each income or expense.
+2. Reports: this is for generating a report and it is formed from multiple objects. So, it think the best pattern for 
+this action is the flyweight. Because the solution is formed from a big amount and objects and most of them could have
+a common aria. By using this design pattern here i will reduce also the consumption of resources.
+3. Contracts: for this action i think the best pattern is the builder. For every contract i will some common atributes, 
+but depeding on the type of the contract i will have also some optional atributes that can be added optional.
+4. Project Partners: Like the contracts, i here is fitting also the the builder pattern. 
+5. Members: Because the members will change the state from active, to inactive or to alumns, and for each state they will
+do different action, i think the best pattern that is fitting here the State Design Patern.
